@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\DLL Export">
+      <UniqueIdentifier>{43123849-f103-44eb-bafe-5164d601795e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DLL Export">
+      <UniqueIdentifier>{b48ca11b-055a-4041-930d-428b3f4e826d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DEngine">
+      <UniqueIdentifier>{ebd6e7c3-0247-4fa1-b083-50d517149149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DEngine">
+      <UniqueIdentifier>{cd368f11-a6f6-443f-8b17-37ea3b47b685}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\DLL Export</Filter>
+    </ClInclude>
+    <ClInclude Include="DEngine.h">
+      <Filter>Header Files\DLL Export</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\DLL Export</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>Header Files\DEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="events_raiser.h">
+      <Filter>Header Files\DEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>Header Files\DEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files\DLL Export</Filter>
+    </ClCompile>
+    <ClCompile Include="events_raiser.cpp">
+      <Filter>Source Files\DEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp">
+      <Filter>Source Files\DEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,9 +1,9 @@
-#include "core.h"
+#include <events_raiser.h>
+#include <iostream>
 
 int main()
 {
-	d_engine::core init;
-	init.initialize(1920, 1080);
-
-	return 0;
+	d_engine::events_raiser::test();
+	int a;
+	std::cin >> a;
 }
